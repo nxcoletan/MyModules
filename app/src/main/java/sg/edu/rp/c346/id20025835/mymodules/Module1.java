@@ -18,6 +18,6 @@ public class Module1 extends AppCompatActivity {
 
         Intent intentReceived = getIntent();
         String information = intentReceived.getStringExtra("c203");
-        c203TV.setText(
+        c203TV.setText("Module code: C203"  + "\nModule Name: " + information + "\nAcademic Year:2021" + "\nSemester:1" + "\nModule Credit:4" + "\nVenue:W647N");
     }
 }
